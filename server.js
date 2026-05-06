@@ -10,6 +10,7 @@ const app = express();
 // Middleware
 const allowedOrigins = [
   'http://localhost:3000',
+  'https://student-leave-and-faculty-payroll-s.vercel.app',
   process.env.CLIENT_URL
 ].filter(Boolean);
 
